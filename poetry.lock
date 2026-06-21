@@ -36,7 +36,7 @@ testing = ["bitsandbytes", "datasets", "diffusers", "evaluate", "parameterized",
 [package.source]
 type = "legacy"
 url = "https://pypi.tuna.tsinghua.edu.cn/simple"
-reference = "pypi-tuna"
+reference = "tuna"
 
 [[package]]
 name = "addict"
@@ -53,7 +53,7 @@ files = [
 [package.source]
 type = "legacy"
 url = "https://pypi.tuna.tsinghua.edu.cn/simple"
-reference = "pypi-tuna"
+reference = "tuna"
 
 [[package]]
 name = "aiofiles"
@@ -70,7 +70,7 @@ files = [
 [package.source]
 type = "legacy"
 url = "https://pypi.tuna.tsinghua.edu.cn/simple"
-reference = "pypi-tuna"
+reference = "tuna"
 
 [[package]]
 name = "aiohappyeyeballs"
@@ -87,7 +87,7 @@ files = [
 [package.source]
 type = "legacy"
 url = "https://pypi.tuna.tsinghua.edu.cn/simple"
-reference = "pypi-tuna"
+reference = "tuna"
 
 [[package]]
 name = "aiohttp"
@@ -235,7 +235,7 @@ speedups = ["Brotli (>=1.2) ; platform_python_implementation == \"CPython\" and 
 [package.source]
 type = "legacy"
 url = "https://pypi.tuna.tsinghua.edu.cn/simple"
-reference = "pypi-tuna"
+reference = "tuna"
 
 [[package]]
 name = "aiosignal"
@@ -256,7 +256,7 @@ typing-extensions = {version = ">=4.2", markers = "python_version < \"3.13\""}
 [package.source]
 type = "legacy"
 url = "https://pypi.tuna.tsinghua.edu.cn/simple"
-reference = "pypi-tuna"
+reference = "tuna"
 
 [[package]]
 name = "altair"
@@ -286,7 +286,7 @@ save = ["vl-convert-python (>=1.9.0)"]
 [package.source]
 type = "legacy"
 url = "https://pypi.tuna.tsinghua.edu.cn/simple"
-reference = "pypi-tuna"
+reference = "tuna"
 
 [[package]]
 name = "annotated-doc"
@@ -303,7 +303,7 @@ files = [
 [package.source]
 type = "legacy"
 url = "https://pypi.tuna.tsinghua.edu.cn/simple"
-reference = "pypi-tuna"
+reference = "tuna"
 
 [[package]]
 name = "anyio"
@@ -328,7 +328,7 @@ trio = ["trio (>=0.32.0)"]
 [package.source]
 type = "legacy"
 url = "https://pypi.tuna.tsinghua.edu.cn/simple"
-reference = "pypi-tuna"
+reference = "tuna"
 
 [[package]]
 name = "async-timeout"
@@ -346,7 +346,7 @@ files = [
 [package.source]
 type = "legacy"
 url = "https://pypi.tuna.tsinghua.edu.cn/simple"
-reference = "pypi-tuna"
+reference = "tuna"
 
 [[package]]
 name = "attrs"
@@ -371,7 +371,7 @@ tests-mypy = ["mypy (>=1.11.1) ; platform_python_implementation == \"CPython\" a
 [package.source]
 type = "legacy"
 url = "https://pypi.tuna.tsinghua.edu.cn/simple"
-reference = "pypi-tuna"
+reference = "tuna"
 
 [[package]]
 name = "audioread"
@@ -393,7 +393,7 @@ test = ["pytest (>=8.4.2)", "pytest-cov (>=7.0.0)"]
 [package.source]
 type = "legacy"
 url = "https://pypi.tuna.tsinghua.edu.cn/simple"
-reference = "pypi-tuna"
+reference = "tuna"
 
 [[package]]
 name = "babel"
@@ -413,7 +413,7 @@ dev = ["backports.zoneinfo ; python_version < \"3.9\"", "freezegun (>=1.0,<2.0)"
 [package.source]
 type = "legacy"
 url = "https://pypi.tuna.tsinghua.edu.cn/simple"
-reference = "pypi-tuna"
+reference = "tuna"
 
 [[package]]
 name = "beautifulsoup4"
@@ -440,7 +440,7 @@ lxml = ["lxml"]
 [package.source]
 type = "legacy"
 url = "https://pypi.tuna.tsinghua.edu.cn/simple"
-reference = "pypi-tuna"
+reference = "tuna"
 
 [[package]]
 name = "bibtexparser"
@@ -464,7 +464,7 @@ test = ["jupyter", "pytest", "pytest-cov", "pytest-xdist"]
 [package.source]
 type = "legacy"
 url = "https://pypi.tuna.tsinghua.edu.cn/simple"
-reference = "pypi-tuna"
+reference = "tuna"
 
 [[package]]
 name = "blis"
@@ -511,7 +511,7 @@ numpy = {version = ">=1.19.0,<3.0.0", markers = "python_version >= \"3.9\""}
 [package.source]
 type = "legacy"
 url = "https://pypi.tuna.tsinghua.edu.cn/simple"
-reference = "pypi-tuna"
+reference = "tuna"
 
 [[package]]
 name = "bs4"
@@ -531,7 +531,7 @@ beautifulsoup4 = "*"
 [package.source]
 type = "legacy"
 url = "https://pypi.tuna.tsinghua.edu.cn/simple"
-reference = "pypi-tuna"
+reference = "tuna"
 
 [[package]]
 name = "catalogue"
@@ -548,7 +548,7 @@ files = [
 [package.source]
 type = "legacy"
 url = "https://pypi.tuna.tsinghua.edu.cn/simple"
-reference = "pypi-tuna"
+reference = "tuna"
 
 [[package]]
 name = "certifi"
@@ -565,7 +565,7 @@ files = [
 [package.source]
 type = "legacy"
 url = "https://pypi.tuna.tsinghua.edu.cn/simple"
-reference = "pypi-tuna"
+reference = "tuna"
 
 [[package]]
 name = "cffi"
@@ -650,7 +650,7 @@ pycparser = "*"
 [package.source]
 type = "legacy"
 url = "https://pypi.tuna.tsinghua.edu.cn/simple"
-reference = "pypi-tuna"
+reference = "tuna"
 
 [[package]]
 name = "charset-normalizer"
@@ -757,7 +757,7 @@ files = [
 [package.source]
 type = "legacy"
 url = "https://pypi.tuna.tsinghua.edu.cn/simple"
-reference = "pypi-tuna"
+reference = "tuna"
 
 [[package]]
 name = "click"
@@ -777,7 +777,7 @@ colorama = {version = "*", markers = "platform_system == \"Windows\""}
 [package.source]
 type = "legacy"
 url = "https://pypi.tuna.tsinghua.edu.cn/simple"
-reference = "pypi-tuna"
+reference = "tuna"
 
 [[package]]
 name = "clldutils"
@@ -810,7 +810,7 @@ test = ["pytest (>=5)", "pytest-cov", "pytest-mock", "tox"]
 [package.source]
 type = "legacy"
 url = "https://pypi.tuna.tsinghua.edu.cn/simple"
-reference = "pypi-tuna"
+reference = "tuna"
 
 [[package]]
 name = "cloudpathlib"
@@ -836,7 +836,7 @@ s3 = ["boto3 (>=1.34.0)"]
 [package.source]
 type = "legacy"
 url = "https://pypi.tuna.tsinghua.edu.cn/simple"
-reference = "pypi-tuna"
+reference = "tuna"
 
 [[package]]
 name = "cn2an"
@@ -856,7 +856,7 @@ proces = ">=0.1.7"
 [package.source]
 type = "legacy"
 url = "https://pypi.tuna.tsinghua.edu.cn/simple"
-reference = "pypi-tuna"
+reference = "tuna"
 
 [[package]]
 name = "colorama"
@@ -874,7 +874,7 @@ markers = {dev = "platform_system == \"Windows\" or sys_platform == \"win32\""}
 [package.source]
 type = "legacy"
 url = "https://pypi.tuna.tsinghua.edu.cn/simple"
-reference = "pypi-tuna"
+reference = "tuna"
 
 [[package]]
 name = "colorlog"
@@ -897,7 +897,7 @@ development = ["black", "flake8", "mypy", "pytest", "types-colorama"]
 [package.source]
 type = "legacy"
 url = "https://pypi.tuna.tsinghua.edu.cn/simple"
-reference = "pypi-tuna"
+reference = "tuna"
 
 [[package]]
 name = "confection"
@@ -918,7 +918,7 @@ srsly = ">=2.4.0,<3.0.0"
 [package.source]
 type = "legacy"
 url = "https://pypi.tuna.tsinghua.edu.cn/simple"
-reference = "pypi-tuna"
+reference = "tuna"
 
 [[package]]
 name = "contourpy"
@@ -1001,7 +1001,7 @@ test-no-images = ["pytest", "pytest-cov", "pytest-rerunfailures", "pytest-xdist"
 [package.source]
 type = "legacy"
 url = "https://pypi.tuna.tsinghua.edu.cn/simple"
-reference = "pypi-tuna"
+reference = "tuna"
 
 [[package]]
 name = "contourpy"
@@ -1099,7 +1099,7 @@ test-no-images = ["pytest", "pytest-cov", "pytest-rerunfailures", "pytest-xdist"
 [package.source]
 type = "legacy"
 url = "https://pypi.tuna.tsinghua.edu.cn/simple"
-reference = "pypi-tuna"
+reference = "tuna"
 
 [[package]]
 name = "csvw"
@@ -1134,7 +1134,7 @@ test = ["frictionless", "pytest (>=5)", "pytest-cov", "pytest-mock", "requests-m
 [package.source]
 type = "legacy"
 url = "https://pypi.tuna.tsinghua.edu.cn/simple"
-reference = "pypi-tuna"
+reference = "tuna"
 
 [[package]]
 name = "curated-tokenizers"
@@ -1186,7 +1186,7 @@ regex = ">=2022"
 [package.source]
 type = "legacy"
 url = "https://pypi.tuna.tsinghua.edu.cn/simple"
-reference = "pypi-tuna"
+reference = "tuna"
 
 [[package]]
 name = "curated-transformers"
@@ -1206,7 +1206,7 @@ torch = ">=1.12.0"
 [package.source]
 type = "legacy"
 url = "https://pypi.tuna.tsinghua.edu.cn/simple"
-reference = "pypi-tuna"
+reference = "tuna"
 
 [[package]]
 name = "cycler"
@@ -1227,7 +1227,7 @@ tests = ["pytest", "pytest-cov", "pytest-xdist"]
 [package.source]
 type = "legacy"
 url = "https://pypi.tuna.tsinghua.edu.cn/simple"
-reference = "pypi-tuna"
+reference = "tuna"
 
 [[package]]
 name = "cymem"
@@ -1278,7 +1278,7 @@ files = [
 [package.source]
 type = "legacy"
 url = "https://pypi.tuna.tsinghua.edu.cn/simple"
-reference = "pypi-tuna"
+reference = "tuna"
 
 [[package]]
 name = "decorator"
@@ -1295,7 +1295,7 @@ files = [
 [package.source]
 type = "legacy"
 url = "https://pypi.tuna.tsinghua.edu.cn/simple"
-reference = "pypi-tuna"
+reference = "tuna"
 
 [[package]]
 name = "deptry"
@@ -1333,7 +1333,7 @@ tomli = {version = ">=2.0.1", markers = "python_version < \"3.11\""}
 [package.source]
 type = "legacy"
 url = "https://pypi.tuna.tsinghua.edu.cn/simple"
-reference = "pypi-tuna"
+reference = "tuna"
 
 [[package]]
 name = "dlinfo"
@@ -1350,7 +1350,7 @@ files = [
 [package.source]
 type = "legacy"
 url = "https://pypi.tuna.tsinghua.edu.cn/simple"
-reference = "pypi-tuna"
+reference = "tuna"
 
 [[package]]
 name = "docopt"
@@ -1366,7 +1366,7 @@ files = [
 [package.source]
 type = "legacy"
 url = "https://pypi.tuna.tsinghua.edu.cn/simple"
-reference = "pypi-tuna"
+reference = "tuna"
 
 [[package]]
 name = "ebooklib"
@@ -1386,7 +1386,7 @@ six = "*"
 [package.source]
 type = "legacy"
 url = "https://pypi.tuna.tsinghua.edu.cn/simple"
-reference = "pypi-tuna"
+reference = "tuna"
 
 [[package]]
 name = "einops"
@@ -1403,7 +1403,7 @@ files = [
 [package.source]
 type = "legacy"
 url = "https://pypi.tuna.tsinghua.edu.cn/simple"
-reference = "pypi-tuna"
+reference = "tuna"
 
 [[package]]
 name = "epub-meta"
@@ -1419,7 +1419,7 @@ files = [
 [package.source]
 type = "legacy"
 url = "https://pypi.tuna.tsinghua.edu.cn/simple"
-reference = "pypi-tuna"
+reference = "tuna"
 
 [[package]]
 name = "epub-toc"
@@ -1445,7 +1445,7 @@ dev = ["black (>=23.12.1)", "flake8 (>=7.0.0)", "isort (>=5.13.2)", "mypy (>=1.8
 [package.source]
 type = "legacy"
 url = "https://pypi.tuna.tsinghua.edu.cn/simple"
-reference = "pypi-tuna"
+reference = "tuna"
 
 [[package]]
 name = "espeakng-loader"
@@ -1466,7 +1466,7 @@ files = [
 [package.source]
 type = "legacy"
 url = "https://pypi.tuna.tsinghua.edu.cn/simple"
-reference = "pypi-tuna"
+reference = "tuna"
 
 [[package]]
 name = "exceptiongroup"
@@ -1490,7 +1490,7 @@ test = ["pytest (>=6)"]
 [package.source]
 type = "legacy"
 url = "https://pypi.tuna.tsinghua.edu.cn/simple"
-reference = "pypi-tuna"
+reference = "tuna"
 
 [[package]]
 name = "fastapi"
@@ -1518,7 +1518,7 @@ standard-no-fastapi-cloud-cli = ["email-validator (>=2.0.0)", "fastapi-cli[stand
 [package.source]
 type = "legacy"
 url = "https://pypi.tuna.tsinghua.edu.cn/simple"
-reference = "pypi-tuna"
+reference = "tuna"
 
 [[package]]
 name = "ffmpy"
@@ -1538,7 +1538,7 @@ psutil = ["psutil (>=5.8.0)"]
 [package.source]
 type = "legacy"
 url = "https://pypi.tuna.tsinghua.edu.cn/simple"
-reference = "pypi-tuna"
+reference = "tuna"
 
 [[package]]
 name = "filelock"
@@ -1560,7 +1560,7 @@ typing = ["typing-extensions (>=4.12.2) ; python_version < \"3.11\""]
 [package.source]
 type = "legacy"
 url = "https://pypi.tuna.tsinghua.edu.cn/simple"
-reference = "pypi-tuna"
+reference = "tuna"
 
 [[package]]
 name = "flatbuffers"
@@ -1576,7 +1576,7 @@ files = [
 [package.source]
 type = "legacy"
 url = "https://pypi.tuna.tsinghua.edu.cn/simple"
-reference = "pypi-tuna"
+reference = "tuna"
 
 [[package]]
 name = "fonttools"
@@ -1654,7 +1654,7 @@ woff = ["brotli (>=1.0.1) ; platform_python_implementation == \"CPython\"", "bro
 [package.source]
 type = "legacy"
 url = "https://pypi.tuna.tsinghua.edu.cn/simple"
-reference = "pypi-tuna"
+reference = "tuna"
 
 [[package]]
 name = "frozenlist"
@@ -1799,7 +1799,7 @@ files = [
 [package.source]
 type = "legacy"
 url = "https://pypi.tuna.tsinghua.edu.cn/simple"
-reference = "pypi-tuna"
+reference = "tuna"
 
 [[package]]
 name = "fsspec"
@@ -1844,7 +1844,7 @@ tqdm = ["tqdm"]
 [package.source]
 type = "legacy"
 url = "https://pypi.tuna.tsinghua.edu.cn/simple"
-reference = "pypi-tuna"
+reference = "tuna"
 
 [[package]]
 name = "gradio"
@@ -1889,7 +1889,7 @@ websockets = ">=10.0"
 [package.source]
 type = "legacy"
 url = "https://pypi.tuna.tsinghua.edu.cn/simple"
-reference = "pypi-tuna"
+reference = "tuna"
 
 [[package]]
 name = "gradio-client"
@@ -1913,7 +1913,7 @@ typing-extensions = ">=4.0,<5.0"
 [package.source]
 type = "legacy"
 url = "https://pypi.tuna.tsinghua.edu.cn/simple"
-reference = "pypi-tuna"
+reference = "tuna"
 
 [[package]]
 name = "h11"
@@ -1930,7 +1930,7 @@ files = [
 [package.source]
 type = "legacy"
 url = "https://pypi.tuna.tsinghua.edu.cn/simple"
-reference = "pypi-tuna"
+reference = "tuna"
 
 [[package]]
 name = "hf-xet"
@@ -1974,7 +1974,7 @@ tests = ["pytest"]
 [package.source]
 type = "legacy"
 url = "https://pypi.tuna.tsinghua.edu.cn/simple"
-reference = "pypi-tuna"
+reference = "tuna"
 
 [[package]]
 name = "httpcore"
@@ -2001,7 +2001,7 @@ trio = ["trio (>=0.22.0,<1.0)"]
 [package.source]
 type = "legacy"
 url = "https://pypi.tuna.tsinghua.edu.cn/simple"
-reference = "pypi-tuna"
+reference = "tuna"
 
 [[package]]
 name = "httpx"
@@ -2031,7 +2031,7 @@ zstd = ["zstandard (>=0.18.0)"]
 [package.source]
 type = "legacy"
 url = "https://pypi.tuna.tsinghua.edu.cn/simple"
-reference = "pypi-tuna"
+reference = "tuna"
 
 [[package]]
 name = "huggingface-hub"
@@ -2075,7 +2075,7 @@ typing = ["types-PyYAML", "types-requests", "types-simplejson", "types-toml", "t
 [package.source]
 type = "legacy"
 url = "https://pypi.tuna.tsinghua.edu.cn/simple"
-reference = "pypi-tuna"
+reference = "tuna"
 
 [[package]]
 name = "idna"
@@ -2095,7 +2095,7 @@ all = ["flake8 (>=7.1.1)", "mypy (>=1.11.2)", "pytest (>=8.3.2)", "ruff (>=0.6.2
 [package.source]
 type = "legacy"
 url = "https://pypi.tuna.tsinghua.edu.cn/simple"
-reference = "pypi-tuna"
+reference = "tuna"
 
 [[package]]
 name = "isodate"
@@ -2112,7 +2112,7 @@ files = [
 [package.source]
 type = "legacy"
 url = "https://pypi.tuna.tsinghua.edu.cn/simple"
-reference = "pypi-tuna"
+reference = "tuna"
 
 [[package]]
 name = "jieba"
@@ -2128,7 +2128,7 @@ files = [
 [package.source]
 type = "legacy"
 url = "https://pypi.tuna.tsinghua.edu.cn/simple"
-reference = "pypi-tuna"
+reference = "tuna"
 
 [[package]]
 name = "jinja2"
@@ -2151,7 +2151,7 @@ i18n = ["Babel (>=2.7)"]
 [package.source]
 type = "legacy"
 url = "https://pypi.tuna.tsinghua.edu.cn/simple"
-reference = "pypi-tuna"
+reference = "tuna"
 
 [[package]]
 name = "joblib"
@@ -2168,7 +2168,7 @@ files = [
 [package.source]
 type = "legacy"
 url = "https://pypi.tuna.tsinghua.edu.cn/simple"
-reference = "pypi-tuna"
+reference = "tuna"
 
 [[package]]
 name = "jsonschema"
@@ -2195,7 +2195,7 @@ format-nongpl = ["fqdn", "idna", "isoduration", "jsonpointer (>1.13)", "rfc3339-
 [package.source]
 type = "legacy"
 url = "https://pypi.tuna.tsinghua.edu.cn/simple"
-reference = "pypi-tuna"
+reference = "tuna"
 
 [[package]]
 name = "jsonschema-specifications"
@@ -2215,7 +2215,7 @@ referencing = ">=0.31.0"
 [package.source]
 type = "legacy"
 url = "https://pypi.tuna.tsinghua.edu.cn/simple"
-reference = "pypi-tuna"
+reference = "tuna"
 
 [[package]]
 name = "kiwisolver"
@@ -2347,7 +2347,7 @@ files = [
 [package.source]
 type = "legacy"
 url = "https://pypi.tuna.tsinghua.edu.cn/simple"
-reference = "pypi-tuna"
+reference = "tuna"
 
 [[package]]
 name = "kokoro"
@@ -2372,7 +2372,7 @@ transformers = "*"
 [package.source]
 type = "legacy"
 url = "https://pypi.tuna.tsinghua.edu.cn/simple"
-reference = "pypi-tuna"
+reference = "tuna"
 
 [[package]]
 name = "langcodes"
@@ -2396,7 +2396,7 @@ test = ["pytest", "pytest-cov"]
 [package.source]
 type = "legacy"
 url = "https://pypi.tuna.tsinghua.edu.cn/simple"
-reference = "pypi-tuna"
+reference = "tuna"
 
 [[package]]
 name = "language-data"
@@ -2420,7 +2420,7 @@ test = ["pytest", "pytest-cov"]
 [package.source]
 type = "legacy"
 url = "https://pypi.tuna.tsinghua.edu.cn/simple"
-reference = "pypi-tuna"
+reference = "tuna"
 
 [[package]]
 name = "language-tags"
@@ -2437,7 +2437,7 @@ files = [
 [package.source]
 type = "legacy"
 url = "https://pypi.tuna.tsinghua.edu.cn/simple"
-reference = "pypi-tuna"
+reference = "tuna"
 
 [[package]]
 name = "lazy-loader"
@@ -2462,7 +2462,7 @@ test = ["coverage[toml] (>=7.2)", "pytest (>=8.0)", "pytest-cov (>=5.0)"]
 [package.source]
 type = "legacy"
 url = "https://pypi.tuna.tsinghua.edu.cn/simple"
-reference = "pypi-tuna"
+reference = "tuna"
 
 [[package]]
 name = "librosa"
@@ -2499,7 +2499,7 @@ tests = ["matplotlib (>=3.5.0)", "packaging (>=20.0)", "pytest", "pytest-cov", "
 [package.source]
 type = "legacy"
 url = "https://pypi.tuna.tsinghua.edu.cn/simple"
-reference = "pypi-tuna"
+reference = "tuna"
 
 [[package]]
 name = "linkify-it-py"
@@ -2525,7 +2525,7 @@ test = ["coverage", "pytest", "pytest-cov"]
 [package.source]
 type = "legacy"
 url = "https://pypi.tuna.tsinghua.edu.cn/simple"
-reference = "pypi-tuna"
+reference = "tuna"
 
 [[package]]
 name = "llvmlite"
@@ -2565,7 +2565,7 @@ files = [
 [package.source]
 type = "legacy"
 url = "https://pypi.tuna.tsinghua.edu.cn/simple"
-reference = "pypi-tuna"
+reference = "tuna"
 
 [[package]]
 name = "loguru"
@@ -2589,7 +2589,7 @@ dev = ["Sphinx (==8.1.3) ; python_version >= \"3.11\"", "build (==1.2.2) ; pytho
 [package.source]
 type = "legacy"
 url = "https://pypi.tuna.tsinghua.edu.cn/simple"
-reference = "pypi-tuna"
+reference = "tuna"
 
 [[package]]
 name = "lxml"
@@ -2749,7 +2749,7 @@ source = ["Cython (>=3.0.11)"]
 [package.source]
 type = "legacy"
 url = "https://pypi.tuna.tsinghua.edu.cn/simple"
-reference = "pypi-tuna"
+reference = "tuna"
 
 [[package]]
 name = "marisa-trie"
@@ -2846,7 +2846,7 @@ test = ["hypothesis", "pytest", "readme-renderer"]
 [package.source]
 type = "legacy"
 url = "https://pypi.tuna.tsinghua.edu.cn/simple"
-reference = "pypi-tuna"
+reference = "tuna"
 
 [[package]]
 name = "markdown"
@@ -2867,7 +2867,7 @@ testing = ["coverage", "pyyaml"]
 [package.source]
 type = "legacy"
 url = "https://pypi.tuna.tsinghua.edu.cn/simple"
-reference = "pypi-tuna"
+reference = "tuna"
 
 [[package]]
 name = "markdown-it-py"
@@ -2898,7 +2898,7 @@ testing = ["coverage", "pytest", "pytest-cov", "pytest-regressions"]
 [package.source]
 type = "legacy"
 url = "https://pypi.tuna.tsinghua.edu.cn/simple"
-reference = "pypi-tuna"
+reference = "tuna"
 
 [[package]]
 name = "markupsafe"
@@ -2974,7 +2974,7 @@ files = [
 [package.source]
 type = "legacy"
 url = "https://pypi.tuna.tsinghua.edu.cn/simple"
-reference = "pypi-tuna"
+reference = "tuna"
 
 [[package]]
 name = "matplotlib"
@@ -3059,7 +3059,7 @@ dev = ["meson-python (>=0.13.1,<0.17.0)", "pybind11 (>=2.13.2,!=2.13.3)", "setup
 [package.source]
 type = "legacy"
 url = "https://pypi.tuna.tsinghua.edu.cn/simple"
-reference = "pypi-tuna"
+reference = "tuna"
 
 [[package]]
 name = "matplotlib"
@@ -3132,7 +3132,7 @@ python-dateutil = ">=2.7"
 [package.source]
 type = "legacy"
 url = "https://pypi.tuna.tsinghua.edu.cn/simple"
-reference = "pypi-tuna"
+reference = "tuna"
 
 [[package]]
 name = "mdit-py-plugins"
@@ -3157,7 +3157,7 @@ testing = ["coverage", "pytest", "pytest-cov", "pytest-regressions"]
 [package.source]
 type = "legacy"
 url = "https://pypi.tuna.tsinghua.edu.cn/simple"
-reference = "pypi-tuna"
+reference = "tuna"
 
 [[package]]
 name = "mdurl"
@@ -3174,7 +3174,7 @@ files = [
 [package.source]
 type = "legacy"
 url = "https://pypi.tuna.tsinghua.edu.cn/simple"
-reference = "pypi-tuna"
+reference = "tuna"
 
 [[package]]
 name = "misaki"
@@ -3213,7 +3213,7 @@ zh = ["cn2an", "jieba", "ordered-set", "pypinyin", "pypinyin-dict"]
 [package.source]
 type = "legacy"
 url = "https://pypi.tuna.tsinghua.edu.cn/simple"
-reference = "pypi-tuna"
+reference = "tuna"
 
 [[package]]
 name = "mpmath"
@@ -3236,7 +3236,7 @@ tests = ["pytest (>=4.6)"]
 [package.source]
 type = "legacy"
 url = "https://pypi.tuna.tsinghua.edu.cn/simple"
-reference = "pypi-tuna"
+reference = "tuna"
 
 [[package]]
 name = "msgpack"
@@ -3317,7 +3317,7 @@ files = [
 [package.source]
 type = "legacy"
 url = "https://pypi.tuna.tsinghua.edu.cn/simple"
-reference = "pypi-tuna"
+reference = "tuna"
 
 [[package]]
 name = "multidict"
@@ -3481,7 +3481,7 @@ typing-extensions = {version = ">=4.1.0", markers = "python_version < \"3.11\""}
 [package.source]
 type = "legacy"
 url = "https://pypi.tuna.tsinghua.edu.cn/simple"
-reference = "pypi-tuna"
+reference = "tuna"
 
 [[package]]
 name = "murmurhash"
@@ -3532,7 +3532,7 @@ files = [
 [package.source]
 type = "legacy"
 url = "https://pypi.tuna.tsinghua.edu.cn/simple"
-reference = "pypi-tuna"
+reference = "tuna"
 
 [[package]]
 name = "narwhals"
@@ -3563,7 +3563,7 @@ sqlframe = ["sqlframe (>=3.22.0,!=3.39.3)"]
 [package.source]
 type = "legacy"
 url = "https://pypi.tuna.tsinghua.edu.cn/simple"
-reference = "pypi-tuna"
+reference = "tuna"
 
 [[package]]
 name = "networkx"
@@ -3587,7 +3587,7 @@ test = ["pytest (>=7.2)", "pytest-cov (>=4.0)"]
 [package.source]
 type = "legacy"
 url = "https://pypi.tuna.tsinghua.edu.cn/simple"
-reference = "pypi-tuna"
+reference = "tuna"
 
 [[package]]
 name = "num2words"
@@ -3607,7 +3607,7 @@ docopt = ">=0.6.2"
 [package.source]
 type = "legacy"
 url = "https://pypi.tuna.tsinghua.edu.cn/simple"
-reference = "pypi-tuna"
+reference = "tuna"
 
 [[package]]
 name = "numba"
@@ -3651,7 +3651,7 @@ numpy = ">=1.22,<2.5"
 [package.source]
 type = "legacy"
 url = "https://pypi.tuna.tsinghua.edu.cn/simple"
-reference = "pypi-tuna"
+reference = "tuna"
 
 [[package]]
 name = "numpy"
@@ -3702,7 +3702,7 @@ files = [
 [package.source]
 type = "legacy"
 url = "https://pypi.tuna.tsinghua.edu.cn/simple"
-reference = "pypi-tuna"
+reference = "tuna"
 
 [[package]]
 name = "nvidia-cublas-cu12"
@@ -3721,7 +3721,7 @@ files = [
 [package.source]
 type = "legacy"
 url = "https://pypi.tuna.tsinghua.edu.cn/simple"
-reference = "pypi-tuna"
+reference = "tuna"
 
 [[package]]
 name = "nvidia-cuda-cupti-cu12"
@@ -3740,7 +3740,7 @@ files = [
 [package.source]
 type = "legacy"
 url = "https://pypi.tuna.tsinghua.edu.cn/simple"
-reference = "pypi-tuna"
+reference = "tuna"
 
 [[package]]
 name = "nvidia-cuda-nvrtc-cu12"
@@ -3759,7 +3759,7 @@ files = [
 [package.source]
 type = "legacy"
 url = "https://pypi.tuna.tsinghua.edu.cn/simple"
-reference = "pypi-tuna"
+reference = "tuna"
 
 [[package]]
 name = "nvidia-cuda-runtime-cu12"
@@ -3778,7 +3778,7 @@ files = [
 [package.source]
 type = "legacy"
 url = "https://pypi.tuna.tsinghua.edu.cn/simple"
-reference = "pypi-tuna"
+reference = "tuna"
 
 [[package]]
 name = "nvidia-cudnn-cu12"
@@ -3799,7 +3799,7 @@ nvidia-cublas-cu12 = "*"
 [package.source]
 type = "legacy"
 url = "https://pypi.tuna.tsinghua.edu.cn/simple"
-reference = "pypi-tuna"
+reference = "tuna"
 
 [[package]]
 name = "nvidia-cufft-cu12"
@@ -3821,7 +3821,7 @@ nvidia-nvjitlink-cu12 = "*"
 [package.source]
 type = "legacy"
 url = "https://pypi.tuna.tsinghua.edu.cn/simple"
-reference = "pypi-tuna"
+reference = "tuna"
 
 [[package]]
 name = "nvidia-curand-cu12"
@@ -3840,7 +3840,7 @@ files = [
 [package.source]
 type = "legacy"
 url = "https://pypi.tuna.tsinghua.edu.cn/simple"
-reference = "pypi-tuna"
+reference = "tuna"
 
 [[package]]
 name = "nvidia-cusolver-cu12"
@@ -3864,7 +3864,7 @@ nvidia-nvjitlink-cu12 = "*"
 [package.source]
 type = "legacy"
 url = "https://pypi.tuna.tsinghua.edu.cn/simple"
-reference = "pypi-tuna"
+reference = "tuna"
 
 [[package]]
 name = "nvidia-cusparse-cu12"
@@ -3886,7 +3886,7 @@ nvidia-nvjitlink-cu12 = "*"
 [package.source]
 type = "legacy"
 url = "https://pypi.tuna.tsinghua.edu.cn/simple"
-reference = "pypi-tuna"
+reference = "tuna"
 
 [[package]]
 name = "nvidia-cusparselt-cu12"
@@ -3905,7 +3905,7 @@ files = [
 [package.source]
 type = "legacy"
 url = "https://pypi.tuna.tsinghua.edu.cn/simple"
-reference = "pypi-tuna"
+reference = "tuna"
 
 [[package]]
 name = "nvidia-nccl-cu12"
@@ -3922,7 +3922,7 @@ files = [
 [package.source]
 type = "legacy"
 url = "https://pypi.tuna.tsinghua.edu.cn/simple"
-reference = "pypi-tuna"
+reference = "tuna"
 
 [[package]]
 name = "nvidia-nvjitlink-cu12"
@@ -3941,7 +3941,7 @@ files = [
 [package.source]
 type = "legacy"
 url = "https://pypi.tuna.tsinghua.edu.cn/simple"
-reference = "pypi-tuna"
+reference = "tuna"
 
 [[package]]
 name = "nvidia-nvtx-cu12"
@@ -3960,7 +3960,7 @@ files = [
 [package.source]
 type = "legacy"
 url = "https://pypi.tuna.tsinghua.edu.cn/simple"
-reference = "pypi-tuna"
+reference = "tuna"
 
 [[package]]
 name = "onnxruntime"
@@ -4007,7 +4007,7 @@ sympy = "*"
 [package.source]
 type = "legacy"
 url = "https://pypi.tuna.tsinghua.edu.cn/simple"
-reference = "pypi-tuna"
+reference = "tuna"
 
 [[package]]
 name = "onnxruntime"
@@ -4057,7 +4057,7 @@ symbolic = ["sympy"]
 [package.source]
 type = "legacy"
 url = "https://pypi.tuna.tsinghua.edu.cn/simple"
-reference = "pypi-tuna"
+reference = "tuna"
 
 [[package]]
 name = "ordered-set"
@@ -4077,7 +4077,7 @@ dev = ["black", "mypy", "pytest"]
 [package.source]
 type = "legacy"
 url = "https://pypi.tuna.tsinghua.edu.cn/simple"
-reference = "pypi-tuna"
+reference = "tuna"
 
 [[package]]
 name = "orjson"
@@ -4166,7 +4166,7 @@ files = [
 [package.source]
 type = "legacy"
 url = "https://pypi.tuna.tsinghua.edu.cn/simple"
-reference = "pypi-tuna"
+reference = "tuna"
 
 [[package]]
 name = "packaging"
@@ -4183,7 +4183,7 @@ files = [
 [package.source]
 type = "legacy"
 url = "https://pypi.tuna.tsinghua.edu.cn/simple"
-reference = "pypi-tuna"
+reference = "tuna"
 
 [[package]]
 name = "pandas"
@@ -4285,7 +4285,7 @@ xml = ["lxml (>=4.9.2)"]
 [package.source]
 type = "legacy"
 url = "https://pypi.tuna.tsinghua.edu.cn/simple"
-reference = "pypi-tuna"
+reference = "tuna"
 
 [[package]]
 name = "pandas"
@@ -4380,7 +4380,7 @@ xml = ["lxml (>=5.3.0)"]
 [package.source]
 type = "legacy"
 url = "https://pypi.tuna.tsinghua.edu.cn/simple"
-reference = "pypi-tuna"
+reference = "tuna"
 
 [[package]]
 name = "phonemizer-fork"
@@ -4408,7 +4408,7 @@ test = ["coverage[toml]", "pytest (>=6.0)", "pytest-cov"]
 [package.source]
 type = "legacy"
 url = "https://pypi.tuna.tsinghua.edu.cn/simple"
-reference = "pypi-tuna"
+reference = "tuna"
 
 [[package]]
 name = "pick"
@@ -4428,7 +4428,7 @@ windows-curses = {version = ">=2.2.0,<3.0.0", markers = "sys_platform == \"win32
 [package.source]
 type = "legacy"
 url = "https://pypi.tuna.tsinghua.edu.cn/simple"
-reference = "pypi-tuna"
+reference = "tuna"
 
 [[package]]
 name = "pillow"
@@ -4542,7 +4542,7 @@ xmp = ["defusedxml"]
 [package.source]
 type = "legacy"
 url = "https://pypi.tuna.tsinghua.edu.cn/simple"
-reference = "pypi-tuna"
+reference = "tuna"
 
 [[package]]
 name = "platformdirs"
@@ -4559,7 +4559,7 @@ files = [
 [package.source]
 type = "legacy"
 url = "https://pypi.tuna.tsinghua.edu.cn/simple"
-reference = "pypi-tuna"
+reference = "tuna"
 
 [[package]]
 name = "pooch"
@@ -4587,7 +4587,7 @@ xxhash = ["xxhash (>=1.4.3)"]
 [package.source]
 type = "legacy"
 url = "https://pypi.tuna.tsinghua.edu.cn/simple"
-reference = "pypi-tuna"
+reference = "tuna"
 
 [[package]]
 name = "preshed"
@@ -4639,7 +4639,7 @@ murmurhash = ">=0.28.0,<1.1.0"
 [package.source]
 type = "legacy"
 url = "https://pypi.tuna.tsinghua.edu.cn/simple"
-reference = "pypi-tuna"
+reference = "tuna"
 
 [[package]]
 name = "proces"
@@ -4656,7 +4656,7 @@ files = [
 [package.source]
 type = "legacy"
 url = "https://pypi.tuna.tsinghua.edu.cn/simple"
-reference = "pypi-tuna"
+reference = "tuna"
 
 [[package]]
 name = "propcache"
@@ -4792,7 +4792,7 @@ files = [
 [package.source]
 type = "legacy"
 url = "https://pypi.tuna.tsinghua.edu.cn/simple"
-reference = "pypi-tuna"
+reference = "tuna"
 
 [[package]]
 name = "protobuf"
@@ -4815,7 +4815,7 @@ files = [
 [package.source]
 type = "legacy"
 url = "https://pypi.tuna.tsinghua.edu.cn/simple"
-reference = "pypi-tuna"
+reference = "tuna"
 
 [[package]]
 name = "psutil"
@@ -4855,7 +4855,7 @@ test = ["psleak", "pytest", "pytest-instafail", "pytest-xdist", "pywin32 ; os_na
 [package.source]
 type = "legacy"
 url = "https://pypi.tuna.tsinghua.edu.cn/simple"
-reference = "pypi-tuna"
+reference = "tuna"
 
 [[package]]
 name = "pycparser"
@@ -4872,7 +4872,7 @@ files = [
 [package.source]
 type = "legacy"
 url = "https://pypi.tuna.tsinghua.edu.cn/simple"
-reference = "pypi-tuna"
+reference = "tuna"
 
 [[package]]
 name = "pydantic"
@@ -4944,7 +4944,7 @@ email = ["email-validator (>=1.0.3)"]
 [package.source]
 type = "legacy"
 url = "https://pypi.tuna.tsinghua.edu.cn/simple"
-reference = "pypi-tuna"
+reference = "tuna"
 
 [[package]]
 name = "pydub"
@@ -4961,7 +4961,7 @@ files = [
 [package.source]
 type = "legacy"
 url = "https://pypi.tuna.tsinghua.edu.cn/simple"
-reference = "pypi-tuna"
+reference = "tuna"
 
 [[package]]
 name = "pygments"
@@ -4981,7 +4981,7 @@ windows-terminal = ["colorama (>=0.4.6)"]
 [package.source]
 type = "legacy"
 url = "https://pypi.tuna.tsinghua.edu.cn/simple"
-reference = "pypi-tuna"
+reference = "tuna"
 
 [[package]]
 name = "pylatexenc"
@@ -4997,7 +4997,7 @@ files = [
 [package.source]
 type = "legacy"
 url = "https://pypi.tuna.tsinghua.edu.cn/simple"
-reference = "pypi-tuna"
+reference = "tuna"
 
 [[package]]
 name = "pyparsing"
@@ -5017,7 +5017,7 @@ diagrams = ["jinja2", "railroad-diagrams"]
 [package.source]
 type = "legacy"
 url = "https://pypi.tuna.tsinghua.edu.cn/simple"
-reference = "pypi-tuna"
+reference = "tuna"
 
 [[package]]
 name = "pypinyin"
@@ -5034,7 +5034,7 @@ files = [
 [package.source]
 type = "legacy"
 url = "https://pypi.tuna.tsinghua.edu.cn/simple"
-reference = "pypi-tuna"
+reference = "tuna"
 
 [[package]]
 name = "pypinyin-dict"
@@ -5054,7 +5054,7 @@ pypinyin = "*"
 [package.source]
 type = "legacy"
 url = "https://pypi.tuna.tsinghua.edu.cn/simple"
-reference = "pypi-tuna"
+reference = "tuna"
 
 [[package]]
 name = "python-dateutil"
@@ -5074,7 +5074,7 @@ six = ">=1.5"
 [package.source]
 type = "legacy"
 url = "https://pypi.tuna.tsinghua.edu.cn/simple"
-reference = "pypi-tuna"
+reference = "tuna"
 
 [[package]]
 name = "python-multipart"
@@ -5091,7 +5091,7 @@ files = [
 [package.source]
 type = "legacy"
 url = "https://pypi.tuna.tsinghua.edu.cn/simple"
-reference = "pypi-tuna"
+reference = "tuna"
 
 [[package]]
 name = "pytz"
@@ -5109,7 +5109,7 @@ files = [
 [package.source]
 type = "legacy"
 url = "https://pypi.tuna.tsinghua.edu.cn/simple"
-reference = "pypi-tuna"
+reference = "tuna"
 
 [[package]]
 name = "pyyaml"
@@ -5177,7 +5177,7 @@ files = [
 [package.source]
 type = "legacy"
 url = "https://pypi.tuna.tsinghua.edu.cn/simple"
-reference = "pypi-tuna"
+reference = "tuna"
 
 [[package]]
 name = "qwen-tts"
@@ -5205,7 +5205,7 @@ transformers = "4.57.3"
 [package.source]
 type = "legacy"
 url = "https://pypi.tuna.tsinghua.edu.cn/simple"
-reference = "pypi-tuna"
+reference = "tuna"
 
 [[package]]
 name = "rdflib"
@@ -5233,7 +5233,7 @@ orjson = ["orjson (>=3.9.14,<4)"]
 [package.source]
 type = "legacy"
 url = "https://pypi.tuna.tsinghua.edu.cn/simple"
-reference = "pypi-tuna"
+reference = "tuna"
 
 [[package]]
 name = "referencing"
@@ -5255,7 +5255,7 @@ typing-extensions = {version = ">=4.4.0", markers = "python_version < \"3.13\""}
 [package.source]
 type = "legacy"
 url = "https://pypi.tuna.tsinghua.edu.cn/simple"
-reference = "pypi-tuna"
+reference = "tuna"
 
 [[package]]
 name = "regex"
@@ -5364,7 +5364,7 @@ files = [
 [package.source]
 type = "legacy"
 url = "https://pypi.tuna.tsinghua.edu.cn/simple"
-reference = "pypi-tuna"
+reference = "tuna"
 
 [[package]]
 name = "requests"
@@ -5391,7 +5391,7 @@ use-chardet-on-py3 = ["chardet (>=3.0.2,<6)"]
 [package.source]
 type = "legacy"
 url = "https://pypi.tuna.tsinghua.edu.cn/simple"
-reference = "pypi-tuna"
+reference = "tuna"
 
 [[package]]
 name = "requirements-parser"
@@ -5412,7 +5412,7 @@ types-setuptools = ">=69.1.0"
 [package.source]
 type = "legacy"
 url = "https://pypi.tuna.tsinghua.edu.cn/simple"
-reference = "pypi-tuna"
+reference = "tuna"
 
 [[package]]
 name = "rfc3986"
@@ -5432,7 +5432,7 @@ idna2008 = ["idna"]
 [package.source]
 type = "legacy"
 url = "https://pypi.tuna.tsinghua.edu.cn/simple"
-reference = "pypi-tuna"
+reference = "tuna"
 
 [[package]]
 name = "rpds-py"
@@ -5550,7 +5550,7 @@ files = [
 [package.source]
 type = "legacy"
 url = "https://pypi.tuna.tsinghua.edu.cn/simple"
-reference = "pypi-tuna"
+reference = "tuna"
 
 [[package]]
 name = "safetensors"
@@ -5593,7 +5593,7 @@ torch = ["safetensors[numpy]", "torch (>=1.10)"]
 [package.source]
 type = "legacy"
 url = "https://pypi.tuna.tsinghua.edu.cn/simple"
-reference = "pypi-tuna"
+reference = "tuna"
 
 [[package]]
 name = "scikit-learn"
@@ -5655,7 +5655,7 @@ tests = ["matplotlib (>=3.5.0)", "mypy (>=1.15)", "numpydoc (>=1.2.0)", "pandas 
 [package.source]
 type = "legacy"
 url = "https://pypi.tuna.tsinghua.edu.cn/simple"
-reference = "pypi-tuna"
+reference = "tuna"
 
 [[package]]
 name = "scikit-learn"
@@ -5718,7 +5718,7 @@ tests = ["matplotlib (>=3.6.1)", "mypy (>=1.15)", "numpydoc (>=1.2.0)", "pandas 
 [package.source]
 type = "legacy"
 url = "https://pypi.tuna.tsinghua.edu.cn/simple"
-reference = "pypi-tuna"
+reference = "tuna"
 
 [[package]]
 name = "scipy"
@@ -5788,7 +5788,7 @@ test = ["Cython", "array-api-strict (>=2.0,<2.1.1)", "asv", "gmpy2", "hypothesis
 [package.source]
 type = "legacy"
 url = "https://pypi.tuna.tsinghua.edu.cn/simple"
-reference = "pypi-tuna"
+reference = "tuna"
 
 [[package]]
 name = "scipy"
@@ -5873,7 +5873,7 @@ test = ["Cython", "array-api-strict (>=2.3.1)", "asv", "gmpy2", "hypothesis (>=6
 [package.source]
 type = "legacy"
 url = "https://pypi.tuna.tsinghua.edu.cn/simple"
-reference = "pypi-tuna"
+reference = "tuna"
 
 [[package]]
 name = "segments"
@@ -5899,7 +5899,7 @@ test = ["pytest (>=5)", "pytest-cov", "pytest-mock"]
 [package.source]
 type = "legacy"
 url = "https://pypi.tuna.tsinghua.edu.cn/simple"
-reference = "pypi-tuna"
+reference = "tuna"
 
 [[package]]
 name = "semantic-version"
@@ -5920,7 +5920,7 @@ doc = ["Sphinx", "sphinx-rtd-theme"]
 [package.source]
 type = "legacy"
 url = "https://pypi.tuna.tsinghua.edu.cn/simple"
-reference = "pypi-tuna"
+reference = "tuna"
 
 [[package]]
 name = "setuptools"
@@ -5946,7 +5946,7 @@ type = ["importlib_metadata (>=7.0.2) ; python_version < \"3.10\"", "jaraco.deve
 [package.source]
 type = "legacy"
 url = "https://pypi.tuna.tsinghua.edu.cn/simple"
-reference = "pypi-tuna"
+reference = "tuna"
 
 [[package]]
 name = "six"
@@ -5963,7 +5963,7 @@ files = [
 [package.source]
 type = "legacy"
 url = "https://pypi.tuna.tsinghua.edu.cn/simple"
-reference = "pypi-tuna"
+reference = "tuna"
 
 [[package]]
 name = "smart-open"
@@ -5994,7 +5994,7 @@ zst = ["zstandard"]
 [package.source]
 type = "legacy"
 url = "https://pypi.tuna.tsinghua.edu.cn/simple"
-reference = "pypi-tuna"
+reference = "tuna"
 
 [[package]]
 name = "soundfile"
@@ -6021,7 +6021,7 @@ numpy = "*"
 [package.source]
 type = "legacy"
 url = "https://pypi.tuna.tsinghua.edu.cn/simple"
-reference = "pypi-tuna"
+reference = "tuna"
 
 [[package]]
 name = "soupsieve"
@@ -6038,7 +6038,7 @@ files = [
 [package.source]
 type = "legacy"
 url = "https://pypi.tuna.tsinghua.edu.cn/simple"
-reference = "pypi-tuna"
+reference = "tuna"
 
 [[package]]
 name = "sox"
@@ -6062,7 +6062,7 @@ tests = ["pytest", "pytest-cov", "pytest-pep8", "soundfile (>=0.11.0)"]
 [package.source]
 type = "legacy"
 url = "https://pypi.tuna.tsinghua.edu.cn/simple"
-reference = "pypi-tuna"
+reference = "tuna"
 
 [[package]]
 name = "soxr"
@@ -6110,7 +6110,7 @@ test = ["pytest"]
 [package.source]
 type = "legacy"
 url = "https://pypi.tuna.tsinghua.edu.cn/simple"
-reference = "pypi-tuna"
+reference = "tuna"
 
 [[package]]
 name = "spacy"
@@ -6188,7 +6188,7 @@ transformers = ["spacy_transformers (>=1.1.2,<1.4.0)"]
 [package.source]
 type = "legacy"
 url = "https://pypi.tuna.tsinghua.edu.cn/simple"
-reference = "pypi-tuna"
+reference = "tuna"
 
 [[package]]
 name = "spacy-curated-transformers"
@@ -6210,7 +6210,7 @@ torch = ">=1.12.0"
 [package.source]
 type = "legacy"
 url = "https://pypi.tuna.tsinghua.edu.cn/simple"
-reference = "pypi-tuna"
+reference = "tuna"
 
 [[package]]
 name = "spacy-legacy"
@@ -6227,7 +6227,7 @@ files = [
 [package.source]
 type = "legacy"
 url = "https://pypi.tuna.tsinghua.edu.cn/simple"
-reference = "pypi-tuna"
+reference = "tuna"
 
 [[package]]
 name = "spacy-loggers"
@@ -6244,7 +6244,7 @@ files = [
 [package.source]
 type = "legacy"
 url = "https://pypi.tuna.tsinghua.edu.cn/simple"
-reference = "pypi-tuna"
+reference = "tuna"
 
 [[package]]
 name = "srsly"
@@ -6296,7 +6296,7 @@ catalogue = ">=2.0.3,<2.1.0"
 [package.source]
 type = "legacy"
 url = "https://pypi.tuna.tsinghua.edu.cn/simple"
-reference = "pypi-tuna"
+reference = "tuna"
 
 [[package]]
 name = "starlette"
@@ -6320,7 +6320,7 @@ full = ["httpx (>=0.27.0,<0.29.0)", "itsdangerous", "jinja2", "python-multipart 
 [package.source]
 type = "legacy"
 url = "https://pypi.tuna.tsinghua.edu.cn/simple"
-reference = "pypi-tuna"
+reference = "tuna"
 
 [[package]]
 name = "sympy"
@@ -6343,7 +6343,7 @@ dev = ["hypothesis (>=6.70.0)", "pytest (>=7.1.0)"]
 [package.source]
 type = "legacy"
 url = "https://pypi.tuna.tsinghua.edu.cn/simple"
-reference = "pypi-tuna"
+reference = "tuna"
 
 [[package]]
 name = "tabulate"
@@ -6363,7 +6363,7 @@ widechars = ["wcwidth"]
 [package.source]
 type = "legacy"
 url = "https://pypi.tuna.tsinghua.edu.cn/simple"
-reference = "pypi-tuna"
+reference = "tuna"
 
 [[package]]
 name = "thinc"
@@ -6439,7 +6439,7 @@ torch = ["torch (>=1.6.0)"]
 [package.source]
 type = "legacy"
 url = "https://pypi.tuna.tsinghua.edu.cn/simple"
-reference = "pypi-tuna"
+reference = "tuna"
 
 [[package]]
 name = "threadpoolctl"
@@ -6456,7 +6456,7 @@ files = [
 [package.source]
 type = "legacy"
 url = "https://pypi.tuna.tsinghua.edu.cn/simple"
-reference = "pypi-tuna"
+reference = "tuna"
 
 [[package]]
 name = "tika"
@@ -6480,7 +6480,7 @@ tests = ["memory-profiler (>=0.57.0)", "pytest-benchmark (>=3.2.2)"]
 [package.source]
 type = "legacy"
 url = "https://pypi.tuna.tsinghua.edu.cn/simple"
-reference = "pypi-tuna"
+reference = "tuna"
 
 [[package]]
 name = "tokenizers"
@@ -6527,7 +6527,7 @@ testing = ["datasets", "numpy", "pytest", "pytest-asyncio", "requests", "ruff", 
 [package.source]
 type = "legacy"
 url = "https://pypi.tuna.tsinghua.edu.cn/simple"
-reference = "pypi-tuna"
+reference = "tuna"
 
 [[package]]
 name = "tomli"
@@ -6575,7 +6575,7 @@ files = [
 [package.source]
 type = "legacy"
 url = "https://pypi.tuna.tsinghua.edu.cn/simple"
-reference = "pypi-tuna"
+reference = "tuna"
 
 [[package]]
 name = "torch"
@@ -6637,7 +6637,7 @@ optree = ["optree (>=0.13.0)"]
 [package.source]
 type = "legacy"
 url = "https://pypi.tuna.tsinghua.edu.cn/simple"
-reference = "pypi-tuna"
+reference = "tuna"
 
 [[package]]
 name = "torchaudio"
@@ -6680,7 +6680,7 @@ files = [
 [package.source]
 type = "legacy"
 url = "https://pypi.tuna.tsinghua.edu.cn/simple"
-reference = "pypi-tuna"
+reference = "tuna"
 
 [[package]]
 name = "tqdm"
@@ -6707,7 +6707,7 @@ telegram = ["requests"]
 [package.source]
 type = "legacy"
 url = "https://pypi.tuna.tsinghua.edu.cn/simple"
-reference = "pypi-tuna"
+reference = "tuna"
 
 [[package]]
 name = "transformers"
@@ -6787,7 +6787,7 @@ vision = ["Pillow (>=10.0.1,<=15.0)"]
 [package.source]
 type = "legacy"
 url = "https://pypi.tuna.tsinghua.edu.cn/simple"
-reference = "pypi-tuna"
+reference = "tuna"
 
 [[package]]
 name = "triton"
@@ -6813,7 +6813,7 @@ tutorials = ["matplotlib", "pandas", "tabulate"]
 [package.source]
 type = "legacy"
 url = "https://pypi.tuna.tsinghua.edu.cn/simple"
-reference = "pypi-tuna"
+reference = "tuna"
 
 [[package]]
 name = "typer"
@@ -6839,7 +6839,7 @@ test = ["black (>=22.3.0,<23.0.0)", "coverage (>=6.2,<7.0)", "isort (>=5.0.6,<6.
 [package.source]
 type = "legacy"
 url = "https://pypi.tuna.tsinghua.edu.cn/simple"
-reference = "pypi-tuna"
+reference = "tuna"
 
 [[package]]
 name = "types-setuptools"
@@ -6856,7 +6856,7 @@ files = [
 [package.source]
 type = "legacy"
 url = "https://pypi.tuna.tsinghua.edu.cn/simple"
-reference = "pypi-tuna"
+reference = "tuna"
 
 [[package]]
 name = "typing-extensions"
@@ -6873,7 +6873,7 @@ files = [
 [package.source]
 type = "legacy"
 url = "https://pypi.tuna.tsinghua.edu.cn/simple"
-reference = "pypi-tuna"
+reference = "tuna"
 
 [[package]]
 name = "tzdata"
@@ -6891,7 +6891,7 @@ files = [
 [package.source]
 type = "legacy"
 url = "https://pypi.tuna.tsinghua.edu.cn/simple"
-reference = "pypi-tuna"
+reference = "tuna"
 
 [[package]]
 name = "uc-micro-py"
@@ -6911,7 +6911,7 @@ test = ["coverage", "pytest", "pytest-cov"]
 [package.source]
 type = "legacy"
 url = "https://pypi.tuna.tsinghua.edu.cn/simple"
-reference = "pypi-tuna"
+reference = "tuna"
 
 [[package]]
 name = "uritemplate"
@@ -6928,7 +6928,7 @@ files = [
 [package.source]
 type = "legacy"
 url = "https://pypi.tuna.tsinghua.edu.cn/simple"
-reference = "pypi-tuna"
+reference = "tuna"
 
 [[package]]
 name = "urllib3"
@@ -6951,7 +6951,7 @@ zstd = ["zstandard (>=0.18.0)"]
 [package.source]
 type = "legacy"
 url = "https://pypi.tuna.tsinghua.edu.cn/simple"
-reference = "pypi-tuna"
+reference = "tuna"
 
 [[package]]
 name = "uvicorn"
@@ -6976,7 +6976,7 @@ standard = ["colorama (>=0.4) ; sys_platform == \"win32\"", "httptools (>=0.8.0)
 [package.source]
 type = "legacy"
 url = "https://pypi.tuna.tsinghua.edu.cn/simple"
-reference = "pypi-tuna"
+reference = "tuna"
 
 [[package]]
 name = "wasabi"
@@ -6993,7 +6993,7 @@ files = [
 [package.source]
 type = "legacy"
 url = "https://pypi.tuna.tsinghua.edu.cn/simple"
-reference = "pypi-tuna"
+reference = "tuna"
 
 [[package]]
 name = "weasel"
@@ -7021,7 +7021,7 @@ wasabi = ">=0.9.1,<1.2.0"
 [package.source]
 type = "legacy"
 url = "https://pypi.tuna.tsinghua.edu.cn/simple"
-reference = "pypi-tuna"
+reference = "tuna"
 
 [[package]]
 name = "websockets"
@@ -7097,7 +7097,7 @@ files = [
 [package.source]
 type = "legacy"
 url = "https://pypi.tuna.tsinghua.edu.cn/simple"
-reference = "pypi-tuna"
+reference = "tuna"
 
 [[package]]
 name = "win32-setctime"
@@ -7118,7 +7118,7 @@ dev = ["black (>=19.3b0) ; python_version >= \"3.6\"", "pytest (>=4.6.2)"]
 [package.source]
 type = "legacy"
 url = "https://pypi.tuna.tsinghua.edu.cn/simple"
-reference = "pypi-tuna"
+reference = "tuna"
 
 [[package]]
 name = "windows-curses"
@@ -7150,7 +7150,7 @@ files = [
 [package.source]
 type = "legacy"
 url = "https://pypi.tuna.tsinghua.edu.cn/simple"
-reference = "pypi-tuna"
+reference = "tuna"
 
 [[package]]
 name = "wrapt"
@@ -7244,7 +7244,7 @@ files = [
 [package.source]
 type = "legacy"
 url = "https://pypi.tuna.tsinghua.edu.cn/simple"
-reference = "pypi-tuna"
+reference = "tuna"
 
 [[package]]
 name = "yarl"
@@ -7368,9 +7368,9 @@ propcache = ">=0.2.1"
 [package.source]
 type = "legacy"
 url = "https://pypi.tuna.tsinghua.edu.cn/simple"
-reference = "pypi-tuna"
+reference = "tuna"
 
 [metadata]
 lock-version = "2.1"
 python-versions = ">=3.10,<3.13"
-content-hash = "980a8f015b5ffe591dce0cd43dcadf0e297d752bcc2a79c4b05ee8a50c4ed2d1"
+content-hash = "3028a29fb552487e2c5c164f8c30432cd9702b604238a8abf179575452458da7"

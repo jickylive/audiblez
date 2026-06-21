@@ -133,16 +133,16 @@ Mount your current directory (containing the EPUB files) to the `/data` folder i
 **On CPU:**
 ```bash
 # Linux/macOS:
-docker run --rm -v $(pwd):/data audiblez /data/book.epub -v af_sky -o /data
+docker run --rm -v $(pwd):/data audiblez /data/book.epub -v zf_xiaobei -o /data
 
 # Windows (PowerShell):
-docker run --rm -v ${PWD}:/data audiblez /data/book.epub -v af_sky -o /data
+docker run --rm -v ${PWD}:/data audiblez /data/book.epub -v zf_xiaobei -o /data
 ```
 
 **On GPU (with CUDA):**
 If you have an NVIDIA GPU and the [NVIDIA Container Toolkit](https://docs.nvidia.com/datacenter/cloud-native/container-toolkit/latest/install-guide.html) installed:
 ```bash
-docker run --rm --gpus all -v $(pwd):/data audiblez /data/book.epub -v af_sky -o /data --cuda
+docker run --rm --gpus all -v $(pwd):/data audiblez /data/book.epub -v zf_xiaobei -o /data --cuda
 ```
 
 ## Manually pick chapters to convert
