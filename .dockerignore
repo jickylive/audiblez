@@ -1,0 +1,29 @@
+# Git and GitHub
+.git/
+.github/
+.gitignore
+
+# Python cache and environments
+__pycache__/
+**/*.pyc
+**/*.pyo
+**/*.pyd
+.pytest_cache/
+venv*/
+venv312/
+venv312.tar
+audiblez_env.tar.gz
+
+# Local build artifacts
+build/
+dist/
+*.egg-info/
+
+# Temporary generated files
+*.wav
+*.mp3
+*.m4b
+chapters.txt
+cover
+test/prova/
+outputs/

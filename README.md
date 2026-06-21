@@ -115,6 +115,36 @@ Check out this example: [Audiblez running on a Google Colab Notebook with Cuda ]
 
 We don't currently support Apple Silicon, as there is not yet a Kokoro implementation in MLX. As soon as it will be available, we will support it.
 
+## How to run with Docker
+
+You can build and run `audiblez` using Docker. The Dockerfile compiles system dependencies like `ffmpeg` and `espeak-ng`, and caches the models during the build process so the container can run offline.
+
+### 1. Build the Docker image
+
+From the project root directory, run:
+```bash
+docker build -t audiblez .
+```
+
+### 2. Run the container
+
+Mount your current directory (containing the EPUB files) to the `/data` folder inside the container:
+
+**On CPU:**
+```bash
+# Linux/macOS:
+docker run --rm -v $(pwd):/data audiblez /data/book.epub -v af_sky -o /data
+
+# Windows (PowerShell):
+docker run --rm -v ${PWD}:/data audiblez /data/book.epub -v af_sky -o /data
+```
+
+**On GPU (with CUDA):**
+If you have an NVIDIA GPU and the [NVIDIA Container Toolkit](https://docs.nvidia.com/datacenter/cloud-native/container-toolkit/latest/install-guide.html) installed:
+```bash
+docker run --rm --gpus all -v $(pwd):/data audiblez /data/book.epub -v af_sky -o /data --cuda
+```
+
 ## Manually pick chapters to convert
 
 Sometimes you want to manually select which chapters/sections in the e-book to read out loud.
