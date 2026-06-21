@@ -11,10 +11,6 @@ __pycache__/
 .pytest_cache/
 venv*/
 venv312/
-venv312.tar
-audiblez_env.tar.gz
-*.tar
-
 # Local build artifacts
 build/
 dist/
@@ -26,5 +22,6 @@ dist/
 *.m4b
 chapters.txt
 cover
+test
 test/prova/
 outputs/
