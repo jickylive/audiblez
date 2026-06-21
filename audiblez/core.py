@@ -27,6 +27,9 @@ from kokoro import KPipeline
 from ebooklib import epub
 from pick import pick
 
+os.environ["HF_ENDPOINT"] = "https://hf-mirror.com"
+os.environ["HF_HOME"] = "~/.cache"  # 缓存目录
+
 sample_rate = 24000
 
 

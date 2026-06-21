@@ -2,6 +2,9 @@
 # -*- coding: utf-8 -*-
 import spacy
 from kokoro import KPipeline
+import os
+os.environ["HF_ENDPOINT"] = "https://hf-mirror.com"
+os.environ["HF_HOME"] = "~/.cache"  # 缓存目录
 
 def download_all():
     print("=== Downloading Spacy xx_ent_wiki_sm model ===")
