@@ -44,8 +44,3 @@ audiblez-ui = "audiblez.ui:main"
 
 [tool.poetry.group.dev.dependencies]
 deptry = "^0.23.0"
-
-[[tool.poetry.source]]
-name = "pypi-tuna"
-url = "https://pypi.tuna.tsinghua.edu.cn/simple"
-priority = "primary"

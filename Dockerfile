@@ -37,6 +37,7 @@ COPY pyproject.toml poetry.lock /app/
 RUN mkdir -p /app/audiblez && touch /app/audiblez/__init__.py
 
 # Install python dependencies defined in poetry.lock
+RUN poetry lock
 RUN poetry install --no-root --no-ansi
 
 # Copy the model downloading script
